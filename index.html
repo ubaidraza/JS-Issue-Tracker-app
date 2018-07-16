@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron justify-content-center">
+            <h2>Issue Tracker App!</h2>
+            <form action="" id="myForm">
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <input class="form-control"type="text" name="" id="descriptionValue">
+                </div>
+                <div class="form-group">
+                    <label for="serverity">Serverity</label>
+                    <select class="form-control" id="serverityValue">
+                            <option value="">Select serverity level...</option>
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+    
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="assignedTo">Assigned To</label>
+                    <input class="form-control" type="text" name="" id="assignedToValue">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg">Add</button>  
+                </div>
+            </form>
+        </div>
+
+        <div class="wrap bg bg-dafault" id="issueOpen">
+                <!-- <div class="jumbotron">
+                        <h4 id="description">i am from description</h4>
+                        <p>
+                            <span id="severity">Low</span>
+                            <span id="assignedTo">Ubaid</span>
+                        </p>
+                        <button class="btn btn-warning btn-md" id="closeBtn">Close</button>
+                        <button class="btn btn-danger btn-md" id="deleteBtn">Delete</button>
+                </div>  -->
+        </div>
+    </div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
